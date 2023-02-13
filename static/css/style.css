@@ -1,0 +1,38 @@
+.content-block {
+	margin: 15px;
+	width: 800px;
+}
+
+.info {
+	font-size: 12px;
+}
+
+.card-create {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+p {
+	margin-bottom: 2px;
+	font-size: 15px;
+}
+
+.edit-btns {
+	margin-top: 10px;
+}
+
+.card-edit {
+	margin-right: 10px;
+}
+
+input[value] {
+	font-size: 15px;
+}
+
+.form-control {
+	width: 80%;
+}
+
+.btn-danger {
+	float: right;
+}

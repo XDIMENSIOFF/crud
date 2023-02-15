@@ -1,5 +1,5 @@
 from tinydb import TinyDB, Query
-from flask import Flask, render_template, url_for, request, redirect, flash
+from flask import Flask, render_template, url_for, request, redirect
 
 app = Flask(__name__)
 db = TinyDB('db.json')

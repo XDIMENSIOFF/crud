@@ -1,15 +1,19 @@
 .content-block {
-	margin: 15px;
-	width: 800px;
+	width: 1200px;
+	padding: 15px;
+	display: grid;
+	grid-template-areas:
+    "A A"
+    "B C";
+}
+
+.edit-block {
+	padding: 15px;
+	width: 600px;
 }
 
 .info {
 	font-size: 12px;
-}
-
-.card-create {
-	margin-left: 15px;
-	margin-top: 15px;
 }
 
 p {
@@ -35,4 +39,33 @@ input[value] {
 
 .btn-danger {
 	float: right;
+}
+
+.h-item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.date-item {
+	margin-right: 10px;
+}
+
+.header {
+	grid-area: A;
+}
+
+.accordion {
+	grid-area: B;
+	width: 700px;
+}
+
+.card {
+	grid-area: C;
+	width: 350px;
+	align-self: start;
+}
+
+.card-create {
+	margin: 15px;
 }
